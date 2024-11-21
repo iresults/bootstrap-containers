@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.mediumDevices</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <mdCol1 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </mdCol1>
+                    <mdCol2 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </mdCol2>
+                    <mdCol3 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </mdCol3>
+                </el>
+            </ROOT>
+        </sDEF>
+        <smallDevices>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.smallDevices</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <smCol1 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </smCol1>
+                    <smCol2 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </smCol2>
+                    <smCol3 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </smCol3>
+                </el>
+            </ROOT>
+        </smallDevices>
+        <extraSmallDevices>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.extraSmallDevices</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <xsCol1 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </xsCol1>
+                    <xsCol2 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </xsCol2>
+                    <xsCol3 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </xsCol3>
+                </el>
+            </ROOT>
+        </extraSmallDevices>
+        <largeDevices>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.largeDevices</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <lgCol1 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </lgCol1>
+                    <lgCol2 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </lgCol2>
+                    <lgCol3 type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </lgCol3>
+                </el>
+            </ROOT>
+        </largeDevices>
+        <customClasses>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.customClasses</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <col31class type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                            <config type="array">
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </col31class>
+                    <col32class type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                            <config type="array">
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </col32class>
+                    <col33class type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col3</label>
+                            <config type="array">
+                                <type>input</type>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </col33class>
+                </el>
+            </ROOT>
+        </customClasses>
+    </sheets>
+</T3DataStructure>

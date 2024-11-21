@@ -1,0 +1,45 @@
+lib.clientContainer < lib.contentElement
+lib.clientContainer {
+    templateRootPaths {
+        10 = EXT:bootstrap_containers/Resources/Private/Templates/
+        20 = EXT:client/Resources/Private/Templates/Container/
+    }
+
+    dataProcessing {
+        100 = B13\Container\DataProcessing\ContainerProcessor
+
+        200 = TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor
+        200.fieldName = pi_flexform
+        200.as = configuration
+    }
+}
+
+tt_content.client-2cols < lib.clientContainer
+tt_content.client-2cols {
+    templateName = 2cols
+}
+
+tt_content.client-3cols < lib.clientContainer
+tt_content.client-3cols {
+    templateName = 3cols
+}
+
+tt_content.client-4cols < lib.clientContainer
+tt_content.client-4cols {
+    templateName = 4cols
+}
+
+tt_content.client-container < lib.clientContainer
+tt_content.client-container {
+    templateName = Container
+}
+
+tt_content.client-group < lib.clientContainer
+tt_content.client-group {
+    templateName = Group
+}
+
+tt_content.client-accordion < lib.clientContainer
+tt_content.client-accordion {
+    templateName = Accordion
+}

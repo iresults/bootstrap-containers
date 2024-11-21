@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-02-07T00:02:05Z" product-name="bootstrap_grids">
+		<header/>
+		<body>
+			<trans-unit id="2cols.title" xml:space="preserve" approved="yes">
+				<source>2 columns</source>
+				<target>2 Spalten</target>
+			</trans-unit>
+			<trans-unit id="3cols.title" xml:space="preserve" approved="yes">
+				<source>3 columns</source>
+				<target>3 Spalten</target>
+			</trans-unit>
+			<trans-unit id="4cols.title" xml:space="preserve" approved="yes">
+				<source>4 columns</source>
+				<target>4 Spalten</target>
+			</trans-unit>
+			<trans-unit id="tabsSimple.title" xml:space="preserve" approved="yes">
+				<source>Tabs from content</source>
+				<target>Tabs aus dem Inhalt</target>
+			</trans-unit>
+			<trans-unit id="tabs4.title" xml:space="preserve" approved="yes">
+				<source>Tabs (4)</source>
+				<target>Tabs (4)</target>
+			</trans-unit>
+			<trans-unit id="tabs6.title" xml:space="preserve" approved="yes">
+				<source>Tabs (6)</source>
+				<target>Tabs (6)</target>
+			</trans-unit>
+			<trans-unit id="accordion.title" xml:space="preserve" approved="yes">
+				<source>Accordion from content</source>
+				<target>Accordion aus dem Inhalt</target>
+			</trans-unit>
+			<trans-unit id="container.title" xml:space="preserve" approved="yes">
+				<source>Container</source>
+				<target>Container</target>
+			</trans-unit>
+			<trans-unit id="group.title" xml:space="preserve" approved="yes">
+				<source>Group</source>
+				<target>Gruppe</target>
+			</trans-unit>
+			<trans-unit id="group.description" xml:space="preserve" approved="yes">
+				<source>Simple container to group contents</source>
+				<target>Einfacher Container um Inhalte zu gruppieren</target>
+			</trans-unit>
+			<trans-unit id="slider.title" xml:space="preserve" approved="yes">
+				<source>Content slider</source>
+				<target>Slider aus dem Inhalt</target>
+			</trans-unit>
+
+			<trans-unit id="xSimpleRow.title" xml:space="preserve" approved="yes">
+				<source>Row</source>
+				<target>Zeile</target>
+			</trans-unit>
+
+			<trans-unit id="content.content" xml:space="preserve" approved="yes">
+				<source>Content</source>
+				<target>Inhalt</target>
+			</trans-unit>
+			<trans-unit id="content.leftColumn" xml:space="preserve" approved="yes">
+				<source>Left column</source>
+				<target>Spalte links</target>
+			</trans-unit>
+			<trans-unit id="content.rightColumn" xml:space="preserve" approved="yes">
+				<source>Right column</source>
+				<target>Spalte rechts</target>
+			</trans-unit>
+			<trans-unit id="content.centerColumn" xml:space="preserve" approved="yes">
+				<source>Center column</source>
+				<target>Mittlere Spalte</target>
+			</trans-unit>
+			<trans-unit id="content.column2" xml:space="preserve" approved="yes">
+				<source>2nd column</source>
+				<target>2. Spalte</target>
+			</trans-unit>
+			<trans-unit id="content.column3" xml:space="preserve" approved="yes">
+				<source>3rd column</source>
+				<target>3. Spalte</target>
+			</trans-unit>
+			<trans-unit id="content.tabElements" xml:space="preserve" approved="yes">
+				<source>Tab elements</source>
+				<target>Tab Elemente</target>
+			</trans-unit>
+			<trans-unit id="content.tab1" xml:space="preserve" approved="yes">
+				<source>Tab 1</source>
+				<target>Inhalt Tab 1</target>
+			</trans-unit>
+			<trans-unit id="content.tab2" xml:space="preserve" approved="yes">
+				<source>Tab 2</source>
+				<target>Inhalt Tab 2</target>
+			</trans-unit>
+			<trans-unit id="content.tab3" xml:space="preserve" approved="yes">
+				<source>Tab 3</source>
+				<target>Inhalt Tab 3</target>
+			</trans-unit>
+			<trans-unit id="content.tab4" xml:space="preserve" approved="yes">
+				<source>Tab 4</source>
+				<target>Inhalt Tab 4</target>
+			</trans-unit>
+			<trans-unit id="content.tab5" xml:space="preserve" approved="yes">
+				<source>Tab 5</source>
+				<target>Inhalt Tab 5</target>
+			</trans-unit>
+			<trans-unit id="content.tab6" xml:space="preserve" approved="yes">
+				<source>Tab 6</source>
+				<target>Inhalt Tab 6</target>
+			</trans-unit>
+			<trans-unit id="content.accordionElements" xml:space="preserve" approved="yes">
+				<source>Accordion elements</source>
+				<target>Accordion Elemente</target>
+			</trans-unit>
+			<trans-unit id="content.sliderElements" xml:space="preserve" approved="yes">
+				<source>Slider elements</source>
+				<target>Slider Elemente</target>
+			</trans-unit>
+			<trans-unit id="content.columnElements" xml:space="preserve" approved="yes">
+				<source>Column elements</source>
+				<target>Spaltenelemente</target>
+			</trans-unit>
+
+			<trans-unit id="grid.sheet.mediumDevices" xml:space="preserve" approved="yes">
+				<source>Desktop</source>
+				<target>Desktop</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.smallDevices" xml:space="preserve" approved="yes">
+				<source>Small devices</source>
+				<target>Tablets</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.extraSmallDevices" xml:space="preserve" approved="yes">
+				<source>Extra small</source>
+				<target>Mobilgeräte</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.largeDevices" xml:space="preserve" approved="yes">
+				<source>Large</source>
+				<target>Grosse Screens</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.extraLargeDevices" xml:space="preserve" approved="yes">
+				<source>Large</source>
+				<target>Grosse Screens</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.customId" xml:space="preserve" approved="yes">
+				<source>Custom ID</source>
+				<target>Eigene ID</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.customClasses" xml:space="preserve" approved="yes">
+				<source>Custom classes</source>
+				<target>Weitere class-Attribute</target>
+			</trans-unit>
+			<trans-unit id="grid.label.col1" xml:space="preserve" approved="yes">
+				<source>Column 1</source>
+				<target>Spalte 1</target>
+			</trans-unit>
+			<trans-unit id="grid.label.col2" xml:space="preserve" approved="yes">
+				<source>Column 2</source>
+				<target>Spalte 2</target>
+			</trans-unit>
+			<trans-unit id="grid.label.col3" xml:space="preserve" approved="yes">
+				<source>Column 3</source>
+				<target>Spalte 3</target>
+			</trans-unit>
+			<trans-unit id="grid.label.col4" xml:space="preserve" approved="yes">
+				<source>Column 4</source>
+				<target>Spalte 4</target>
+			</trans-unit>
+			<trans-unit id="grid.label.moreWidth" xml:space="preserve" approved="yes">
+				<source>More width</source>
+				<target>Weitere Breite</target>
+			</trans-unit>
+			<trans-unit id="grid.label.notset" xml:space="preserve" approved="yes">
+				<source>not set</source>
+				<target>nicht gesetzt</target>
+			</trans-unit>
+			<trans-unit id="grid.label.moreOptions" xml:space="preserve" approved="yes">
+				<source>More options</source>
+				<target>Weitere Optionen</target>
+			</trans-unit>
+			<trans-unit id="grid.label.special" xml:space="preserve" approved="yes">
+				<source>Special</source>
+				<target>Spezial</target>
+			</trans-unit>
+			<trans-unit id="grid.label.hidden" xml:space="preserve" approved="yes">
+				<source>hidden</source>
+				<target>verstecken</target>
+			</trans-unit>
+			<trans-unit id="grid.label.visible" xml:space="preserve" approved="yes">
+				<source>visible</source>
+				<target>anzeigen</target>
+			</trans-unit>
+
+			<trans-unit id="grid.sheet.animation" xml:space="preserve" approved="yes">
+				<source>Animation</source>
+				<target>Animation</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.controls" xml:space="preserve" approved="yes">
+				<source>Controls</source>
+				<target>Steuerelemente</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.options" xml:space="preserve" approved="yes">
+				<source>Options</source>
+				<target>Optionen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.direction" xml:space="preserve" approved="yes">
+				<source>Direction</source>
+				<target>Richtung</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.direction.1" xml:space="preserve" approved="yes">
+				<source>vertical</source>
+				<target>vertikal</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.direction.2" xml:space="preserve" approved="yes">
+				<source>horizontal</source>
+				<target>horizontal</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.speed" xml:space="preserve" approved="yes">
+				<source>Slideshow speed</source>
+				<target>Geschwindigkeit (in ms)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animation" xml:space="preserve" approved="yes">
+				<source>Animation</source>
+				<target>Animation</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animation.1" xml:space="preserve" approved="yes">
+				<source>fade</source>
+				<target>ausblenden</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animation.2" xml:space="preserve" approved="yes">
+				<source>slide</source>
+				<target>slide</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animationspeed" xml:space="preserve" approved="yes">
+				<source>Animation speed</source>
+				<target>Dauer der Animation (in ms)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.style" xml:space="preserve" approved="yes">
+				<source>Style</source>
+				<target>Stil</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.showcontrolnav" xml:space="preserve" approved="yes">
+				<source>Show control navigation</source>
+				<target>Links für jedes Slide anzeigen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.showdirnav" xml:space="preserve" approved="yes">
+				<source>Show direction navigation</source>
+				<target>Zurück/vorwärts anzeigen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.showpause" xml:space="preserve" approved="yes">
+				<source>Show pause button</source>
+				<target>Play/Pause anzeigen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.pauseonhover" xml:space="preserve" approved="yes">
+				<source>Pause on hover</source>
+				<target>Pausieren wenn Maus über dem Slider</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.initdelay" xml:space="preserve" approved="yes">
+				<source>Init delay</source>
+				<target>Initiale Verzögerung (in ms)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.randomize" xml:space="preserve" approved="yes">
+				<source>Randomize</source>
+				<target>Slides mischen vor der Anzeige</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.animationloop" xml:space="preserve" approved="yes">
+				<source>Loop</source>
+				<target>Endlosschleife</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.reverse" xml:space="preserve" approved="yes">
+				<source>Reverse order</source>
+				<target>Reihenfolge rückwärts</target>
+			</trans-unit>
+
+			<trans-unit id="grid.sheet.layout" xml:space="preserve" approved="yes">
+				<source>Layout</source>
+				<target>Layout</target>
+			</trans-unit>
+			<trans-unit id="grid.label.style" xml:space="preserve" approved="yes">
+				<source>Style</source>
+				<target>Stil</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabStyle" xml:space="preserve" approved="yes">
+				<source>Style</source>
+				<target>Stil</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabStyle.0" xml:space="preserve" approved="yes">
+				<source>Style 1</source>
+				<target>Stil 1</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabStyle.1" xml:space="preserve" approved="yes">
+				<source>Style 2</source>
+				<target>Stil 2</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabTitle1" xml:space="preserve" approved="yes">
+				<source>Title 1</source>
+				<target>Titel 1</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabTitle2" xml:space="preserve" approved="yes">
+				<source>Title 2</source>
+				<target>Titel 2</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabTitle3" xml:space="preserve" approved="yes">
+				<source>Title 3</source>
+				<target>Titel 3</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabTitle4" xml:space="preserve" approved="yes">
+				<source>Title 4</source>
+				<target>Titel 4</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabTitle5" xml:space="preserve" approved="yes">
+				<source>Title 5</source>
+				<target>Titel 5</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabTitle6" xml:space="preserve" approved="yes">
+				<source>Title 6</source>
+				<target>Titel 6</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabTitle7" xml:space="preserve" approved="yes">
+				<source>Title 7</source>
+				<target>Titel 7</target>
+			</trans-unit>
+			<trans-unit id="grid.label.tabTitle8" xml:space="preserve" approved="yes">
+				<source>Title 8</source>
+				<target>Titel 8</target>
+			</trans-unit>
+
+			<trans-unit id="grid.label.none" xml:space="preserve" approved="yes">
+				<source>none</source>
+				<target>keine</target>
+			</trans-unit>
+			<trans-unit id="grid.label.yes" xml:space="preserve" approved="yes">
+				<source>yes</source>
+				<target>ja</target>
+			</trans-unit>
+			<trans-unit id="grid.label.no" xml:space="preserve" approved="yes">
+				<source>no</source>
+				<target>nein</target>
+			</trans-unit>
+
+			<trans-unit id="grid.label.accordion.automaticallyShowFirstElement" xml:space="preserve" approved="yes">
+				<source>Automatically show the first element</source>
+				<source>Erstes Element automatisch öffnen</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

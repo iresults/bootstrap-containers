@@ -1,0 +1,33 @@
+<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+    <div class="panel-group" id="accordion-{data.uid}" role="tablist">
+        <f:for each="{children_101}" as="item" iteration="i">
+            <f:variable name="isOpen" value="{i.isFirst * configuration.automaticallyShowFirstElement}" />
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="panel-heading-{item.uid}">
+                    <h4 class="panel-title">
+                        <a
+                            role="button"
+                            data-toggle="collapse"
+                            href="#collapse-{item.uid}"
+                            data-parent="#accordion-{data.uid}"
+                            aria-expanded="{isOpen ? 'true' : 'false'}"
+                            aria-controls="collapse-{item.uid}"
+                            class="accordion-toggle{isOpen ? '' : ' collapsed'}">
+                            {item.header->f:format.raw()}
+                        </a>
+                    </h4>
+                </div>
+                <div
+                    id="collapse-{item.uid}"
+                    class="panel-collapse collapse{f:if(condition:isOpen,then:' in')}"
+                    role="tabpanel"
+                    aria-labelledby="panel-heading-{item.uid}">
+                    <div class="panel-body">
+                        <f:format.raw>{item.renderedContent}</f:format.raw>
+                    </div>
+                </div>
+            </div>
+        </f:for>
+    </div>
+</html>
