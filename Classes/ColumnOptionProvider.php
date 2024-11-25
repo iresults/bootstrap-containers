@@ -101,7 +101,7 @@ class ColumnOptionProvider
             case 'lgCol':
                 return $this->buildNameClassPairs('lg');
 
-            default: throw new InvalidArgumentException('Invalid column type "' . $columnType . '"');
+            default: throw new InvalidArgumentException('Invalid column type "' . $columnType . '"', 1417778126);
         }
     }
 
