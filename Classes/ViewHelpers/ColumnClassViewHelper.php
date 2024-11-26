@@ -2,8 +2,6 @@
 
 namespace Iresults\BootstrapContainers\ViewHelpers;
 
-use Closure;
-use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
 
 class ColumnClassViewHelper extends AbstractViewHelper
@@ -15,19 +13,16 @@ class ColumnClassViewHelper extends AbstractViewHelper
         $this->registerArgument('default', 'string', 'Default class if the configuration is empty');
     }
 
-    public static function renderStatic(
-        array $arguments,
-        Closure $renderChildrenClosure,
-        RenderingContextInterface $renderingContext,
-    ): string {
-        $column = (int) $arguments['column'];
-        $configuration = $arguments['configuration'] ?? $renderChildrenClosure();
+    public function render(): string
+    {
+        $column = (int) $this->arguments['column'];
+        $configuration = $this->arguments['configuration'] ?? $this->renderChildren();
 
         // If the configuration is NULL (e.g. the EXT:container content element
         // was created without opening the content record) the default class
         // will be used
         if (empty($configuration)) {
-            return $arguments['default'] ?? '';
+            return $this->arguments['default'] ?? '';
         }
 
         return htmlspecialchars(implode(' ', array_filter([
