@@ -256,6 +256,9 @@
 			<trans-unit id="grid.label.accordion.automaticallyShowFirstElement" xml:space="preserve" approved="yes">
 				<source>Automatically show the first element</source>
 			</trans-unit>
+			<trans-unit id="grid.label.accordion.automaticallyShowFirstElement.activated" xml:space="preserve" approved="yes">
+				<source>Activated</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

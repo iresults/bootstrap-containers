@@ -336,7 +336,11 @@
 
 			<trans-unit id="grid.label.accordion.automaticallyShowFirstElement" xml:space="preserve" approved="yes">
 				<source>Automatically show the first element</source>
-				<source>Erstes Element automatisch öffnen</source>
+				<target>Erstes Element automatisch öffnen</target>
+			</trans-unit>
+			<trans-unit id="grid.label.accordion.automaticallyShowFirstElement.activated" xml:space="preserve" approved="yes">
+				<source>Activated</source>
+				<target>Aktiviert</target>
 			</trans-unit>
 		</body>
 	</file>
