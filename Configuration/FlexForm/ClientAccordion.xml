@@ -5,28 +5,20 @@
     </meta>
     <sheets>
         <sDEF>
-            <ROOT type="array">
-                <!-- <TCEforms> -->
-                <!--     <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.mediumDevices -->
-                <!--     </sheetTitle> -->
-                <!-- </TCEforms> -->
+            <ROOT>
                 <type>array</type>
-                <el type="array">
-                    <automaticallyShowFirstElement type="array">
-                        <TCEforms type="array">
-
-                    <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.customClasses</label>
-                            <label>Erstes Element automatisch öffnen</label>
-                            <config type="array">
-                                <type>check</type>
-                                <items type="array">
-                                    <numIndex index="0" type="array">
-                                        <numIndex index="0">Aktiviert</numIndex>
-                                        <numIndex index="1"></numIndex>
-                                    </numIndex>
-                                </items>
-                            </config>
-                        </TCEforms>
+                <el>
+                    <automaticallyShowFirstElement>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.accordion.automaticallyShowFirstElement</label>
+                        <config>
+                            <type>check</type>
+                            <items>
+                                <numIndex index="0">
+                                    <numIndex index="0">LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.accordion.automaticallyShowFirstElement.activated</numIndex>
+                                    <numIndex index="1"></numIndex>
+                                </numIndex>
+                            </items>
+                        </config>
                     </automaticallyShowFirstElement>
                 </el>
             </ROOT>

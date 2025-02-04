@@ -2,26 +2,22 @@
     <meta>
         <langDisable>1</langDisable>
     </meta>
-    <ROOT type="array">
+    <ROOT>
         <type>array</type>
-        <el type="array">
-            <customId type="array">
-                <TCEforms type="array">
-                    <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang_db.xlf:grid.sheet.customId</label>
-                    <config type="array">
-                        <type>input</type>
-                        <eval>trim</eval>
-                    </config>
-                </TCEforms>
+        <el>
+            <customId>
+                <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.customId</label>
+                <config>
+                    <type>input</type>
+                    <eval>trim</eval>
+                </config>
             </customId>
-            <customClass type="array">
-                <TCEforms type="array">
-                    <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.customClasses</label>
-                    <config type="array">
-                        <type>input</type>
-                        <eval>trim</eval>
-                    </config>
-                </TCEforms>
+            <customClass>
+                <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.customClasses</label>
+                <config>
+                    <type>input</type>
+                    <eval>trim</eval>
+                </config>
             </customClass>
         </el>
     </ROOT>

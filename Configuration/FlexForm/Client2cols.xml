@@ -5,149 +5,119 @@
     </meta>
     <sheets>
         <sDEF>
-            <ROOT type="array">
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.mediumDevices</sheetTitle>
-                </TCEforms>
+            <ROOT>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.mediumDevices</sheetTitle>
                 <type>array</type>
-                <el type="array">
-                    <mdCol1 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
+                <el>
+                    <mdCol1>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
+                        </config>
                     </mdCol1>
-                    <mdCol2 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
+                    <mdCol2>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
+                        </config>
                     </mdCol2>
                 </el>
             </ROOT>
         </sDEF>
         <smallDevices>
-            <ROOT type="array">
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.smallDevices</sheetTitle>
-                </TCEforms>
+            <ROOT>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.smallDevices</sheetTitle>
                 <type>array</type>
-                <el type="array">
-                    <smCol1 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
+                <el>
+                    <smCol1>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
+                        </config>
                     </smCol1>
-                    <smCol2 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
+                    <smCol2>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
+                        </config>
                     </smCol2>
                 </el>
             </ROOT>
         </smallDevices>
         <extraSmallDevices>
-            <ROOT type="array">
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.extraSmallDevices</sheetTitle>
-                </TCEforms>
+            <ROOT>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.extraSmallDevices</sheetTitle>
                 <type>array</type>
-                <el type="array">
-                    <xsCol1 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
+                <el>
+                    <xsCol1>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
+                        </config>
                     </xsCol1>
-                    <xsCol2 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
+                    <xsCol2>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
+                        </config>
                     </xsCol2>
                 </el>
             </ROOT>
         </extraSmallDevices>
         <largeDevices>
-            <ROOT type="array">
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.largeDevices</sheetTitle>
-                </TCEforms>
+            <ROOT>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.largeDevices</sheetTitle>
                 <type>array</type>
-                <el type="array">
-                    <lgCol1 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
+                <el>
+                    <lgCol1>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
+                        </config>
                     </lgCol1>
-                    <lgCol2 type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>select</type>
-                                <renderType>selectSingle</renderType>
-                                <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
-                            </config>
-                        </TCEforms>
+                    <lgCol2>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getTwoColumnOptions</itemsProcFunc>
+                        </config>
                     </lgCol2>
                 </el>
             </ROOT>
         </largeDevices>
         <customClasses>
             <ROOT>
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.customClasses</sheetTitle>
-                </TCEforms>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.customClasses</sheetTitle>
                 <type>array</type>
-                <el type="array">
-                    <col21class type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
-                            <config type="array">
-                                <type>input</type>
-                                <eval>trim</eval>
-                            </config>
-                        </TCEforms>
+                <el>
+                    <col21class>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                        <config>
+                            <type>input</type>
+                            <eval>trim</eval>
+                        </config>
                     </col21class>
-                    <col22class type="array">
-                        <TCEforms type="array">
-                            <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
-                            <config type="array">
-                                <type>input</type>
-                                <eval>trim</eval>
-                            </config>
-                        </TCEforms>
+                    <col22class>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                        <config>
+                            <type>input</type>
+                            <eval>trim</eval>
+                        </config>
                     </col22class>
                 </el>
             </ROOT>
