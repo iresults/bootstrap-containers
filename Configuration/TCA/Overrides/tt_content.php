@@ -95,7 +95,7 @@ $containerRegistry->configureContainer(
         $gridLocalizationFile . 'group.description',
         [
             [
-                ['name' => $gridLocalizationFile . 'content.content', 'colPos' => 111],
+                ['name' => $gridLocalizationFile . 'content.content', 'colPos' => 101],
             ],
         ]
     ))->setIcon('EXT:container/Resources/Public/Icons/container-1col.svg')
