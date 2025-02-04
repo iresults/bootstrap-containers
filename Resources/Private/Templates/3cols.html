@@ -3,17 +3,17 @@
     xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
     xmlns:bootstrapContainers="http://typo3.org/ns/Iresults/BootstrapContainers/ViewHelpers">
     <div id="c{data.uid}" class="row">
-        <div class="{configuration->bootstrapContainers:columnClass(column: 1, default: 'col-md-6')}">
+        <div class="{configuration->bootstrapContainers:columnClass(column: 1, default: 'col-md-4')}">
             <f:for each="{children_101}" as="record">
                 <f:format.raw>{record.renderedContent}</f:format.raw>
             </f:for>
         </div>
-        <div class="{configuration->bootstrapContainers:columnClass(column: 2, default: 'col-md-6')}">
+        <div class="{configuration->bootstrapContainers:columnClass(column: 2, default: 'col-md-4')}">
             <f:for each="{children_102}" as="record">
                 <f:format.raw>{record.renderedContent}</f:format.raw>
             </f:for>
         </div>
-        <div class="{configuration->bootstrapContainers:columnClass(column: 3, default: 'col-md-6')}">
+        <div class="{configuration->bootstrapContainers:columnClass(column: 3, default: 'col-md-4')}">
             <f:for each="{children_103}" as="record">
                 <f:format.raw>{record.renderedContent}</f:format.raw>
             </f:for>
