@@ -72,6 +72,27 @@ $client4cols = (new ContainerConfiguration(
     ]
 ))->setIcon('EXT:container/Resources/Public/Icons/container-4col.svg');
 
+
+
+
+$client3tabs = (new ContainerConfiguration(
+    'client-3tabs', // CType
+    $gridLocalizationFile . '3tabs.title', // label
+    '', // description
+    [
+        [
+            ['name' => $gridLocalizationFile . 'grid.label.col1', 'colPos' => 101],
+            ['name' => $gridLocalizationFile . 'grid.label.col2', 'colPos' => 102],
+            ['name' => $gridLocalizationFile . 'grid.label.col3', 'colPos' => 103],
+        ],
+    ]
+))->setIcon('EXT:container/Resources/Public/Icons/container-3col.svg');
+$containerRegistry->configureContainer($client3tabs);
+$addFlexForm($client3tabs);
+
+
+
+
 $containerRegistry->configureContainer($client4cols);
 $addFlexForm($client4cols);
 

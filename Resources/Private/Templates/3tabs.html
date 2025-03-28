@@ -1,0 +1,24 @@
+<html
+    data-namespace-typo3-fluid="true"
+    xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    xmlns:bootstrapContainers="http://typo3.org/ns/Iresults/BootstrapContainers/ViewHelpers">
+    
+    <div id="c{data.uid}" class="row">
+        <div class="col">
+            <div class="nav nav-pills justify-content-center btn-group mx-auto container-tab" role="group" aria-label="Basic radio toggle button group" id="containerTabHeader{data.uid}">
+                <f:render partial="3tabs" section="TabHeader" arguments="{data: data, colIndex:'1', children: children_101, active:1}"/>
+                <f:render partial="3tabs" section="TabHeader" arguments="{data: data, colIndex:'1', children: children_102, active:0}"/>
+                <f:render partial="3tabs" section="TabHeader" arguments="{data: data, colIndex:'2', children: children_103, active:0}"/>
+            </div>
+
+            <div class="tab-content" id="containerTabContent{data.uid}">
+                <f:render partial="3tabs" section="Tab" arguments="{data: data, colIndex:'0', children: children_101, active:1}"/>
+                <f:render partial="3tabs" section="Tab" arguments="{data: data, colIndex:'1', children: children_102, active:0}"/>
+                <f:render partial="3tabs" section="Tab" arguments="{data: data, colIndex:'2', children: children_103, active:0}"/>
+            </div>
+        </div>
+    </div>
+</html>
+
+
+
