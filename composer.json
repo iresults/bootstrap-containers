@@ -1,6 +1,6 @@
 {
     "name": "iresults/bootstrap-containers",
-    "description": "A `EXT:container` based replacement for `EXT:bootstrap_grids` modified by Martin Kristensen and Daniel Damm, IMHLab",
+    "description": "A `EXT:container` based replacement for `EXT:bootstrap_grids` modified by Martin Kristensen and Daniel Damm, IMHLab.",
     "type": "typo3-cms-extension",
     "license": [
         "GPL-2.0-or-later"
