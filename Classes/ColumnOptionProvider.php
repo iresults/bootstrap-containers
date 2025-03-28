@@ -57,6 +57,19 @@ class ColumnOptionProvider
 
     /**
      * @param FlexFormConfig $config
+     *
+     * @return FlexFormConfig
+     */
+    public function getThreeTabsOptions(array $config): array
+    {
+        // default for 3 tabs
+        $defaultOption = ['33% (col-md-4)', 'col-md-4'];
+
+        return $this->addColumnOptions($config, $defaultOption);
+    }
+
+    /**
+     * @param FlexFormConfig $config
      * @param ColumnOption   $defaultOption
      *
      * @return FlexFormConfig

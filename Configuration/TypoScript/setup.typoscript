@@ -5,6 +5,11 @@ lib.clientContainer {
         20 = EXT:client/Resources/Private/Templates/Container/
     }
 
+    partialRootPaths {
+        10 = EXT:bootstrap_containers/Resources/Private/Partials/
+        20 = EXT:client/Resources/Private/Templates/Container/
+    }
+
     dataProcessing {
         100 = B13\Container\DataProcessing\ContainerProcessor
 
@@ -22,6 +27,11 @@ tt_content.client-2cols {
 tt_content.client-3cols < lib.clientContainer
 tt_content.client-3cols {
     templateName = 3cols
+}
+
+tt_content.client-3tabs < lib.clientContainer
+tt_content.client-3tabs {
+    templateName = 3tabs
 }
 
 tt_content.client-4cols < lib.clientContainer
