@@ -2,7 +2,7 @@
     data-namespace-typo3-fluid="true"
     xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
     xmlns:bootstrapContainers="http://typo3.org/ns/Iresults/BootstrapContainers/ViewHelpers">
-    <div id="c{data.uid}" class="row">
+    <div id="c{data.uid}" class="row {bootstrapContainers:appearanceClass(data:data)}">
         <div class="{configuration->bootstrapContainers:columnClass(column: 1, default: 'col-md-3')}">
             <f:for each="{children_101}" as="record">
                 <f:format.raw>{record.renderedContent}</f:format.raw>
