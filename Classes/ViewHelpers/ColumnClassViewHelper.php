@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Iresults\BootstrapContainers\ViewHelpers;
 
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
