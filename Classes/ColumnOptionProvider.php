@@ -7,7 +7,7 @@ namespace Iresults\BootstrapContainers;
 use InvalidArgumentException;
 
 /**
- * @phpstan-type ColumnOption array{0:string, 1:string}
+ * @phpstan-type ColumnOption array{label:string, value:string}
  * @phpstan-type Fields   "xsCol1"|"xsCol2"|"xsCol3"|"xsCol4"|"smCol1"|"smCol2"|"smCol3"|"smCol4"|"mdCol1"|"mdCol2"|"mdCol3"|"mdCol4"|"lgCol1"|"lgCol2"|"lgCol3"|"lgCol4"
  * @phpstan-type FlexParentDatabaseRow array{pi_flexform: array{data: string[]}}
  * @phpstan-type FlexFormConfig array{field: Fields, flexParentDatabaseRow: FlexParentDatabaseRow, items: ColumnOption[]}
@@ -24,7 +24,7 @@ class ColumnOptionProvider
     public function getTwoColumnOptions(array $config): array
     {
         // default for 2 columns
-        $defaultOption = ['50% (col-md-6)', 'col-md-6'];
+        $defaultOption = ['label' => '50% (col-md-6)', 'value' => 'col-md-6'];
 
         return $this->addColumnOptions($config, $defaultOption);
     }
@@ -37,7 +37,7 @@ class ColumnOptionProvider
     public function getThreeColumnOptions(array $config): array
     {
         // default for 3 columns
-        $defaultOption = ['33% (col-md-4)', 'col-md-4'];
+        $defaultOption = ['label' => '33% (col-md-4)', 'value' => 'col-md-4'];
 
         return $this->addColumnOptions($config, $defaultOption);
     }
@@ -50,7 +50,7 @@ class ColumnOptionProvider
     public function getFourColumnOptions(array $config): array
     {
         // default for 4 columns
-        $defaultOption = ['25% (col-md-3)', 'col-md-3'];
+        $defaultOption = ['label' => '25% (col-md-3)', 'value' => 'col-md-3'];
 
         return $this->addColumnOptions($config, $defaultOption);
     }
@@ -85,7 +85,7 @@ class ColumnOptionProvider
                 if (!$this->hasFlexFormData($config)) {
                     $optionListStart = [
                         $defaultOption,
-                        [self::LOCALIZATION_FILE . 'grid.label.notset', ' '],
+                        ['label' => self::LOCALIZATION_FILE . 'grid.label.notset', 'value' => ' '],
                     ];
 
                     return $this->removeDuplicateOptions(array_merge($optionListStart, $this->buildNameClassPairs('md')));
@@ -111,23 +111,23 @@ class ColumnOptionProvider
     private function buildNameClassPairs(string $screen): array
     {
         return [
-            [self::LOCALIZATION_FILE . 'grid.label.notset', ' '],
-            ["25% (col-$screen-3)", "col-$screen-3"],
-            ["33% (col-$screen-4)", "col-$screen-4"],
-            ["50% (col-$screen-6)", "col-$screen-6"],
-            ["66% (col-$screen-8)", "col-$screen-8"],
-            ["75% (col-$screen-9)", "col-$screen-9"],
-            [self::LOCALIZATION_FILE . 'grid.label.moreWidth', '--div--'],
-            ["8.3% (col-$screen-1)", "col-$screen-1"],
-            ["16.7%  (col-$screen-2)", "col-$screen-2"],
-            ["41.7% (col-$screen-5)", "col-$screen-5"],
-            ["58.3% (col-$screen-7)", "col-$screen-7"],
-            ["83.3% (col-$screen-10)", "col-$screen-10"],
-            ["91.7% (col-$screen-11)", "col-$screen-11"],
-            ["100% (col-$screen-12)", "col-$screen-12"],
-            [self::LOCALIZATION_FILE . 'grid.label.moreOptions', '--div--'],
-            [self::LOCALIZATION_FILE . 'grid.label.hidden', "hidden-$screen"],
-            [self::LOCALIZATION_FILE . 'grid.label.visible', "visible-$screen"],
+            ['label' => self::LOCALIZATION_FILE . 'grid.label.notset', 'value' => ' '],
+            ['label' => "25% (col-$screen-3)", 'value' => "col-$screen-3"],
+            ['label' => "33% (col-$screen-4)", 'value' => "col-$screen-4"],
+            ['label' => "50% (col-$screen-6)", 'value' => "col-$screen-6"],
+            ['label' => "66% (col-$screen-8)", 'value' => "col-$screen-8"],
+            ['label' => "75% (col-$screen-9)", 'value' => "col-$screen-9"],
+            ['label' => self::LOCALIZATION_FILE . 'grid.label.moreWidth', 'value' => '--div--'],
+            ['label' => "8.3% (col-$screen-1)", 'value' => "col-$screen-1"],
+            ['label' => "16.7%  (col-$screen-2)", 'value' => "col-$screen-2"],
+            ['label' => "41.7% (col-$screen-5)", 'value' => "col-$screen-5"],
+            ['label' => "58.3% (col-$screen-7)", 'value' => "col-$screen-7"],
+            ['label' => "83.3% (col-$screen-10)", 'value' => "col-$screen-10"],
+            ['label' => "91.7% (col-$screen-11)", 'value' => "col-$screen-11"],
+            ['label' => "100% (col-$screen-12)", 'value' => "col-$screen-12"],
+            ['label' => self::LOCALIZATION_FILE . 'grid.label.moreOptions', 'value' => '--div--'],
+            ['label' => self::LOCALIZATION_FILE . 'grid.label.hidden', 'value' => "hidden-$screen"],
+            ['label' => self::LOCALIZATION_FILE . 'grid.label.visible', 'value' => "visible-$screen"],
         ];
     }
 
@@ -149,7 +149,7 @@ class ColumnOptionProvider
     {
         $filteredOptions = [];
         foreach ($optionList as $option) {
-            $filteredOptions[$option[1]] = $option;
+            $filteredOptions[$option['value']] = $option;
         }
 
         return $filteredOptions;

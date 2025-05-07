@@ -14,8 +14,8 @@
                             <type>check</type>
                             <items>
                                 <numIndex index="0">
-                                    <numIndex index="0">LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.accordion.automaticallyShowFirstElement.activated</numIndex>
-                                    <numIndex index="1"></numIndex>
+                                    <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.accordion.automaticallyShowFirstElement.activated</label>
+                                    <value></value>
                                 </numIndex>
                             </items>
                         </config>
