@@ -102,6 +102,12 @@ class ColumnOptionProvider
             case 'lgCol':
                 return $this->buildNameClassPairs('lg');
 
+            case 'xlCol':
+                return $this->buildNameClassPairs('xl');
+
+            case 'xxlCol':
+                return $this->buildNameClassPairs('xxl');
+
             default: throw new InvalidArgumentException('Invalid column type "' . $columnType . '"', 1417778126);
         }
     }

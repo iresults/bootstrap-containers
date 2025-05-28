@@ -134,6 +134,13 @@
 				<source>Large</source>
 				<target>Grosse Screens</target>
 			</trans-unit>
+			<trans-unit id="grid.sheet.xl" xml:space="preserve" approved="yes">
+				<source>Extra large</source>
+				<target>Grosse Screens (XL)</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.xxl" xml:space="preserve" approved="yes">
+				<source>Extra extra large</source>
+				<target>Grosse Screens (XXL)</target>
 			</trans-unit>
 			<trans-unit id="grid.sheet.customId" xml:space="preserve" approved="yes">
 				<source>Custom ID</source>

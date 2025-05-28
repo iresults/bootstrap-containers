@@ -129,6 +129,70 @@
                 </el>
             </ROOT>
         </lg>
+        <xl>
+            <ROOT>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.xl</sheetTitle>
+                <type>array</type>
+                <el>
+                    <xlCol1>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                        </config>
+                    </xlCol1>
+                    <xlCol2>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                        </config>
+                    </xlCol2>
+                    <xlCol3>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col3</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                        </config>
+                    </xlCol3>
+                </el>
+            </ROOT>
+        </xl>
+        <xxl>
+            <ROOT>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.xxl</sheetTitle>
+                <type>array</type>
+                <el>
+                    <xxlCol1>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                        </config>
+                    </xxlCol1>
+                    <xxlCol2>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                        </config>
+                    </xxlCol2>
+                    <xxlCol3>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col3</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getThreeColumnOptions</itemsProcFunc>
+                        </config>
+                    </xxlCol3>
+                </el>
+            </ROOT>
+        </xxl>
         <customClasses>
             <ROOT>
                 <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.customClasses</sheetTitle>
