@@ -118,25 +118,22 @@
 				<target>Spaltenelemente</target>
 			</trans-unit>
 
-			<trans-unit id="grid.sheet.mediumDevices" xml:space="preserve" approved="yes">
+			<trans-unit id="grid.sheet.md" xml:space="preserve" approved="yes">
 				<source>Desktop</source>
 				<target>Desktop</target>
 			</trans-unit>
-			<trans-unit id="grid.sheet.smallDevices" xml:space="preserve" approved="yes">
+			<trans-unit id="grid.sheet.sm" xml:space="preserve" approved="yes">
 				<source>Small devices</source>
 				<target>Tablets</target>
 			</trans-unit>
-			<trans-unit id="grid.sheet.extraSmallDevices" xml:space="preserve" approved="yes">
+			<trans-unit id="grid.sheet.xs" xml:space="preserve" approved="yes">
 				<source>Extra small</source>
 				<target>Mobilgeräte</target>
 			</trans-unit>
-			<trans-unit id="grid.sheet.largeDevices" xml:space="preserve" approved="yes">
+			<trans-unit id="grid.sheet.lg" xml:space="preserve" approved="yes">
 				<source>Large</source>
 				<target>Grosse Screens</target>
 			</trans-unit>
-			<trans-unit id="grid.sheet.extraLargeDevices" xml:space="preserve" approved="yes">
-				<source>Large</source>
-				<target>Grosse Screens</target>
 			</trans-unit>
 			<trans-unit id="grid.sheet.customId" xml:space="preserve" approved="yes">
 				<source>Custom ID</source>
