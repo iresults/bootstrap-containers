@@ -1,4 +1,7 @@
-<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+<html
+    data-namespace-typo3-fluid="true"
+    xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    xmlns:bootstrapContainers="http://typo3.org/ns/Iresults/BootstrapContainers/ViewHelpers">
     <div class="panel-group {bootstrapContainers:appearanceClass(data:data)}" id="accordion-{data.uid}" role="tablist">
         <f:for each="{children_101}" as="item" iteration="i">
             <f:variable name="isOpen" value="{i.isFirst * configuration.automaticallyShowFirstElement}" />
