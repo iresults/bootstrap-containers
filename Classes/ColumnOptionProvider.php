@@ -92,11 +92,12 @@ class ColumnOptionProvider
                 }
 
                 return $this->buildNameClassPairs('md');
-            case 'smCol':
-                return $this->buildNameClassPairs('sm');
 
             case 'xsCol':
                 return $this->buildNameClassPairs('xs');
+
+            case 'smCol':
+                return $this->buildNameClassPairs('sm');
 
             case 'lgCol':
                 return $this->buildNameClassPairs('lg');

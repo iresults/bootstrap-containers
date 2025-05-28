@@ -3,7 +3,7 @@
     <sheets>
         <sDEF>
             <ROOT>
-                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.mediumDevices</sheetTitle>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.md</sheetTitle>
                 <type>array</type>
                 <el>
                     <mdCol1>
@@ -41,49 +41,9 @@
                 </el>
             </ROOT>
         </sDEF>
-        <smallDevices>
+        <xs>
             <ROOT>
-                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.smallDevices</sheetTitle>
-                <type>array</type>
-                <el>
-                    <smCol1>
-                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
-                        <config>
-                            <type>select</type>
-                            <renderType>selectSingle</renderType>
-                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getFourColumnOptions</itemsProcFunc>
-                        </config>
-                    </smCol1>
-                    <smCol2>
-                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
-                        <config>
-                            <type>select</type>
-                            <renderType>selectSingle</renderType>
-                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getFourColumnOptions</itemsProcFunc>
-                        </config>
-                    </smCol2>
-                    <smCol3>
-                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col3</label>
-                        <config>
-                            <type>select</type>
-                            <renderType>selectSingle</renderType>
-                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getFourColumnOptions</itemsProcFunc>
-                        </config>
-                    </smCol3>
-                    <smCol4>
-                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col4</label>
-                        <config>
-                            <type>select</type>
-                            <renderType>selectSingle</renderType>
-                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getFourColumnOptions</itemsProcFunc>
-                        </config>
-                    </smCol4>
-                </el>
-            </ROOT>
-        </smallDevices>
-        <extraSmallDevices>
-            <ROOT>
-                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.extraSmallDevices</sheetTitle>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.xs</sheetTitle>
                 <type>array</type>
                 <el>
                     <xsCol1>
@@ -120,10 +80,50 @@
                     </xsCol4>
                 </el>
             </ROOT>
-        </extraSmallDevices>
-        <largeDevices>
+        </xs>
+        <sm>
             <ROOT>
-                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.largeDevices</sheetTitle>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.sm</sheetTitle>
+                <type>array</type>
+                <el>
+                    <smCol1>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col1</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getFourColumnOptions</itemsProcFunc>
+                        </config>
+                    </smCol1>
+                    <smCol2>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col2</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getFourColumnOptions</itemsProcFunc>
+                        </config>
+                    </smCol2>
+                    <smCol3>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col3</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getFourColumnOptions</itemsProcFunc>
+                        </config>
+                    </smCol3>
+                    <smCol4>
+                        <label>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.label.col4</label>
+                        <config>
+                            <type>select</type>
+                            <renderType>selectSingle</renderType>
+                            <itemsProcFunc>Iresults\BootstrapContainers\ColumnOptionProvider->getFourColumnOptions</itemsProcFunc>
+                        </config>
+                    </smCol4>
+                </el>
+            </ROOT>
+        </sm>
+        <lg>
+            <ROOT>
+                <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.lg</sheetTitle>
                 <type>array</type>
                 <el>
                     <lgCol1>
@@ -160,7 +160,7 @@
                     </lgCol4>
                 </el>
             </ROOT>
-        </largeDevices>
+        </lg>
         <customClasses>
             <ROOT>
                 <sheetTitle>LLL:EXT:bootstrap_containers/Resources/Private/Language/locallang.xlf:grid.sheet.customClasses</sheetTitle>
