@@ -134,7 +134,6 @@
 				<source>Large</source>
 				<target>Grosse Screens</target>
 			</trans-unit>
-			</trans-unit>
 			<trans-unit id="grid.sheet.customId" xml:space="preserve" approved="yes">
 				<source>Custom ID</source>
 				<target>Eigene ID</target>

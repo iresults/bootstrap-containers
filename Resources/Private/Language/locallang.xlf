@@ -102,7 +102,6 @@
 			<trans-unit id="grid.sheet.lg" xml:space="preserve" approved="yes">
 				<source>Large</source>
 			</trans-unit>
-			</trans-unit>
 			<trans-unit id="grid.sheet.customId" xml:space="preserve" approved="yes">
 				<source>Custom ID</source>
 			</trans-unit>
