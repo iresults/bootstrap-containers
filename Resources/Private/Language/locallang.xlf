@@ -23,7 +23,7 @@
 			</trans-unit>
 			<trans-unit id="accordion.title" xml:space="preserve" approved="yes">
 				<source>Accordion from content</source>
-			</trans-unit>>
+			</trans-unit>
 			<trans-unit id="container.title" xml:space="preserve" approved="yes">
 				<source>Container</source>
 			</trans-unit>
