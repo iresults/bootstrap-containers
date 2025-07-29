@@ -2,7 +2,6 @@
     data-namespace-typo3-fluid="true"
     xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
     xmlns:bootstrapContainers="http://typo3.org/ns/Iresults/BootstrapContainers/ViewHelpers">
-    >
     <div
         id="{f:if(condition:configuration.customId, then:configuration.customId, else: 'c{data.uid}')}"
         class="{f:if(condition:configuration.customClass, then:configuration.customClass, else:'container')} {bootstrapContainers:appearanceClass(data:data)}">
